@@ -1,0 +1,163 @@
+/* Reset some default styles */
+body, h1, h2, input, button, ul {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* General Body Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    background: #7a376d;
+    color: #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+/* Container Styles */
+.container {
+    background: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 800px;
+    width: 100%;
+    padding: 20px;
+    overflow: hidden;
+}
+
+/* Header Styles */
+h1 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+/* Form Container Styles */
+.form-container {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+input[type="date"],
+input[type="text"] {
+    padding: 12px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 16px;
+    width: 48%;
+}
+
+button {
+    background-color: #007bff;
+    color: #ffffff;
+    border: none;
+    border-radius: 4px;
+    padding: 12px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #051c34;
+}
+
+/* Tasks Container Styles */
+.tasks-container {
+    margin-bottom: 20px;
+}
+
+.tasks-container h2 {
+    border-bottom: 2px solid #007bff;
+    padding-bottom: 10px;
+    margin-bottom: 15px;
+    color: #333;
+}
+
+ul {
+    list-style-type: none;
+}
+
+li {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    background: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    margin-bottom: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+li .task-text {
+    flex: 1;
+    margin-left: 10px;
+}
+
+input[type="checkbox"] {
+    margin-right: 10px;
+}
+
+.edit-btn,
+.remove-btn {
+    background-color: #ffc107;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    padding: 5px 10px;
+    font-size: 14px;
+    cursor: pointer;
+    margin-left: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.remove-btn {
+    background-color: #dc3545;
+}
+
+.edit-btn:hover {
+    background-color: #e0a800;
+}
+
+.remove-btn:hover {
+    background-color: #c82333;
+}
+
+
+/* Existing styles */
+
+/* Calendar Header Styles */
+.calendar-container h2 {
+    font-size: 24px;
+    margin-bottom: 15px;
+    color: #007bff;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 0 auto;
+}
+
+thead th {
+    background-color: #010305;
+    color: #ffffff;
+    padding: 10px;
+    border: 1px solid #007bff;
+}
+
+tbody td {
+    padding: 10px;
+    border: 1px solid #ddd;
+    background-color: #ffffff;
+    text-align: center;
+}
+
+tbody td:hover {
+    background-color: #f1f1f1;
+    cursor: pointer;
+}

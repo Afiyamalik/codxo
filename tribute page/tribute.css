@@ -1,0 +1,49 @@
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif, sans-serif;
+    line-height: 1.6;
+    font-size: 20px;
+    background-image: url('rcoketbg.jpg');
+}
+
+header {
+    background-color: #2a5c88;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 28px; /* Updated color */
+    color: #f8f9fa;
+    text-align: center;
+    text-transform: uppercase;
+    height: 100px;
+}
+
+footer {
+    background-color: #1b3146;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 28px; /* Updated color */
+    color: #f8f9fa;
+    text-align: center;
+}
+
+.carousel-item img {
+    max-height: 1000px; /* Adjust height as needed */
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+.container {
+    background-color: #f8f9fa; /* Light background for content */
+    padding: 100px;
+    border-radius: 60px;
+    white-space: 0px;
+}
+
+h2, h3 {
+    color: #0a4751; /* Turquoise color for headers */
+}
+
+ul {
+    line-height: 1.8;
+}
+
+footer p {
+    margin: 0 auto;
+}
